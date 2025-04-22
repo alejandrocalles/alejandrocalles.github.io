@@ -1,0 +1,30 @@
+- title: "Machine Learning and Natural Language Processing"
+  description: "Experience with neural network design using `pytorch`. \
+                Experience using `sklearn` models but also implementing mainstream ML algorithms using `numpy`. \
+                Experience with data preparation and feature engineering. \
+                Experience setting up and benchmarking [RAG](https://arxiv.org/pdf/2005.11401) systems. \
+                Experience using core HuggingFace libraries, models and datasets for training and inference."
+- title: "Data Processing, Analysis and Visualization"
+  description: "Experience with `pandas`, `SQL`, `networkx` and `scipy` for processing and analysis. \
+                Experience with `seaborn` and `matplotlib` for visualization. \
+                Experience designing and performing statistical tests."
+- title: "Software Development"
+  description: "Extensive experience with complex OOP projects in Java, Scala and Kotlin. \
+                Familiarity with OOP in C++ and Python. \
+                Experience with `git`, GitHub, GitHub actions for continuous integration and Bash. \
+                Experience with build tools such as CMake, [Poetry](https://python-poetry.org) and \
+                [sbt](https://www.scala-sbt.org)."
+- title: "Algorithm Design and Analysis"
+  description: "Experience designing and analyzing (the cost and correctness of) both deterministic \
+                and randomized algorithms. \
+                This includes most mainstream discrete algorithms, but also dynamic programming, \
+                streaming algorithms, sketching algorithms and linear programming."
+- title: "Low Level Programming"
+  description: "Experience in systems programming using C/C++. \
+                Deep understanding of concurrent computing, cache coherence and consistency models. \
+                Familiarity with [OpenMP](https://www.openmp.org/about/about-us), [OpenMPI](https://www.open-mpi.org/) \
+                and [C++ 11 concurrency support](https://en.cppreference.com/w/cpp/thread)."
+- title: "Probability, Statistics, Discrete Mathematics"
+  description: "Strong background in probability, statistics and stochastic models. \
+                Extensive experience teaching discrete mathematics and basic probability. \
+                Experience applying this skillset to algorithm design and analysis."
