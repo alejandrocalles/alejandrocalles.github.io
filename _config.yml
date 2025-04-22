@@ -22,8 +22,6 @@ title: Gabriel Jiménez
 email: gabrieljimenez.es@gmail.com
 description: >-
   MSc student in Computer Science specialized in Data Analytics.
-  Passionate about problem-solving, particularly in probability theory and computer science theory.
-  Well versed in the intersection between mathematics and computer science, with a focus on data science and machine learning.
 baseurl: "" # the subpath of the site, e.g. '/blog'. useful if the site is in a subdirectory of a git repository.
 url: "https://alejandrocalles.github.io"
 github_username:  alejandrocalles
@@ -34,6 +32,10 @@ theme: minima
 
 minima:
   skin: dark
+
+header_pages:
+  - projects/home.md
+  - skills.md
 
 plugins:
   - jekyll-feed
