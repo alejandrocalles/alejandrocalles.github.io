@@ -1,16 +1,11 @@
 ---
 layout: page
 title: Projects
+description: "Some of the projects I've worked on."
 ---
 
-These are some of the projects I've worked on, classified by whether the code is public or private.
-
-### Public Code
+{{ page.description }}
 
 [Data-driven Analysis of Wikispeedia Behavioral Data](./items/wikispeedia.md)
 
-### Private Code
-
-[Retrieval Augmented Generation (RAG) Pipeline](./items/rag.md)
-
-
+[Procedurally generated underwater scene](./items/underwater-journey.md)
