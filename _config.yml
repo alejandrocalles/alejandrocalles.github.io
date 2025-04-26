@@ -21,10 +21,11 @@
 title: Gabriel Jiménez
 email: gabrieljimenez.es@gmail.com
 description: >-
-  MSc student in Computer Science specialized in Data Analytics.
+  MSc student in Computer Science specialized in Data Science.
 baseurl: "" # the subpath of the site, e.g. '/blog'. useful if the site is in a subdirectory of a git repository.
 url: "https://alejandrocalles.github.io"
 github_username:  alejandrocalles
+linkedin_username: gabriel-jimenez-calles
 
 # Build settings
 # remote_theme: jekyll/minima
