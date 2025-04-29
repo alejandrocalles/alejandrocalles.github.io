@@ -14,7 +14,13 @@ See the source code [here][github-link], and the website [here][website-link].
 You can also browse the website down below.
 
 
-<iframe src="https://epfl-ada.github.io/ada-2024-project-5pack/" width="100%" height="400"></iframe>
+<iframe
+  src="https://epfl-ada.github.io/ada-2024-project-5pack/"
+  sandbox="allow-scripts allow-same-origin"
+  width="100%"
+  height="400"
+  style="background-color: #fff"
+></iframe>
 
 
 [github-link]: https://github.com/epfl-ada/ada-2024-project-5pack

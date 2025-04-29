@@ -60,7 +60,6 @@ img {
 }
 
 
-
 /**
  * Figures
  */
@@ -71,7 +70,6 @@ figure > img {
 figcaption {
   font-size: $small-font-size;
 }
-
 
 
 /**
@@ -94,6 +92,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
   font-weight: $base-font-weight;
 }
 
@@ -103,15 +102,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $link-color;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $link-color;
   }
 
   &:hover {
-    color: $text-color;
+    color: lighten($link-color, 20%);
     text-decoration: underline;
   }
 
@@ -149,9 +148,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border: 1px solid $code-background;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $code-background;
 }
 
 code {
