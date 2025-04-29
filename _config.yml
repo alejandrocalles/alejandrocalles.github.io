@@ -34,9 +34,11 @@ theme: minima
 minima:
   skin: dark
 
-header_pages:
-  - projects/home.md
-  - skills.md
+home_headings:
+  - tag: skills
+    title: Skills
+  - tag: projects
+    title: Projects
 
 plugins:
   - jekyll-feed

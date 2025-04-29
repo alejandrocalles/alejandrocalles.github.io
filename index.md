@@ -2,14 +2,26 @@
 layout: home
 ---
 
-🚧🚧 Site under construction 🚧🚧
+```bash
+> whoami
+gabriel
+```
 
-{% for site_page in site.pages %}
-{% for header_page in site.header_pages %}
-{% if header_page == site_page.path %}
-# [{{ site_page.title }}]({{ site_page.url }})
-{{ site_page.description }}
-{% endif %}
+# Skills {#skills}
+
+Some of the skills I've acquired over the past few years.
+
+{% for skill in site.data.skills %}
+## {{ skill.title }}
+
+{{ skill.description }}
 {% endfor %}
+
+# Projects {#projects}
+
+Some of the projects I've worked on.
+
+{% for project in site.data.projects %}
+[{{ project.title }}]({{ project.url | relative_url }})
 {% endfor %}
 

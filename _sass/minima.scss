@@ -2,21 +2,49 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+//$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: 'Cascadia Code', sans-serif;
+$base-font-size:       16px !default;
+$heading-font-size:    50px !default;
+$base-font-weight:     400 !default;
+$small-font-size:      $base-font-size * 0.875 !default;
+$base-line-height:     1.5 !default;
 
 $spacing-unit:     30px !default;
 
+// Green color palette
+$void-green:               #001109;
+$dark-green:               #002515;
+$castleton-green:          #0D5235;
+$dark-spring-green:        #1A7E54;
+$emerald:                  #34D793;
+$celadon:                  #8FE6A9;
+$vanilla:                  #E9DE97;
+$cream:                    #EBECB5;
+$nyanza:                   #EDFAD2;
+$ivory:                    #F5FAE8;
 
-$background-color: #001E0F !default;
-$text-color:       #E5FAE5 !default;
-$brand-color:      #34D793 !default;
-$heading-color:    #34D793 !default;
-$link-color:       #34D793 !default;
-$code-background:  lighten($background-color, 5%) !default;
+
+// Blue color palette
+$oxford-blue:              #0A192F;
+$cool-gray:                #8892B0;
+$periwinkle:               #CCD6F6;
+$aquamarine:               #64FFDA;
+
+
+// Header colors
+$header-background-color:  $dark-green !default;
+$header-border-color:      $cream !default;
+
+// 
+$background-color: $void-green !default;
+$text-color:       $nyanza !default;
+$brand-color:      $emerald !default;
+$heading-color:    $emerald !default;
+$subheading-color: $ivory !default;
+$link-color:       $emerald !default;
+$code-background:  $dark-green !default;
+
 
 $grey-color:       #8f8f8f !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -25,10 +53,10 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1000px !default;
 
 $on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-laptop:        1000px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
