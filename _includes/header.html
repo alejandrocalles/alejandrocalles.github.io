@@ -2,7 +2,29 @@
 
   <div class="wrapper">
 
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div class="social-media-icon-list">
+
+      {%- if site.email -%}
+      <a class="social-media-link" href="mailto:{{ site.email }}">
+        <svg class="social-media-icon">
+        <path d="M 14 2 H 2 C 1.175 2 0.5075 2.675 0.5075 3.5 L 0.5 12.5 C 0.5 13.325 1.175 14 2 14 H 14 C 14.825 14 15.5 13.325 15.5 12.5 V 3.5 C 15.5 2.675 14.825 2 14 2 Z M 13.7 5.1875 L 8.3975 8.5025 C 8.1575 8.6525 7.8425 8.6525 7.6025 8.5025 L 2.3 5.1875 C 2.1125 5.0675 2 4.865 2 4.6475 C 2 4.145 2.5475 3.845 2.975 4.1075 L 8 7.25 L 13.025 4.1075 C 13.4525 3.845 14 4.145 14 4.6475 C 14 4.865 13.8875 5.0675 13.7 5.1875 Z"></path>
+        </svg>
+      </a>
+      {%- endif -%}
+
+      {%- if site.github_username -%}
+      <a class="social-media-link" href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+        <svg class="social-media-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+      </a>
+      {%- endif -%}
+
+      {%- if site.linkedin_username -%}
+        <a class="social-media-link" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
+          <svg class="social-media-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>
+        </a>
+      {%- endif -%}
+
+    </div>
 
     {%- if site.home_headings -%}
       <nav class="site-nav">
@@ -25,6 +47,9 @@
 
         </div>
       </nav>
+
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
     {%- endif -%}
   </div>
 </header>
