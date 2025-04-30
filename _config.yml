@@ -34,14 +34,10 @@ theme: minima
 minima:
   skin: dark
 
-home_headings:
-  - tag: skills
-    title: Skills
-  - tag: projects
-    title: Projects
 
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -62,3 +58,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Custom configuration
+
+home_headings:
+  - tag: skills
+    title: Skills
+  - tag: projects
+    title: Projects
+
+topic: data-science
