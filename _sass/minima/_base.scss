@@ -153,6 +153,7 @@ blockquote {
  */
 pre,
 code {
+  font-family: 'Cascadia Mono NF';
   @include relative-font-size(0.9375);
   color: $text-color;
   border: 0px solid $cream;
