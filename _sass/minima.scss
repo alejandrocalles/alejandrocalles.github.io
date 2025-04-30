@@ -1,8 +1,18 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: 'Cascadia Code NF';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Cascadia Code NF'),
+    url('./fonts/CascadiaCodeNF.ttf') format('ttf'),
+    url('./fonts/CascadiaCodeNF.woff2') format('woff2');
+}
+
 // Define defaults for each variable.
 
-$base-font-family: 'Cascadia Code', sans-serif;
+$base-font-family: 'Cascadia Code NF';
 $base-font-size:       16px !default;
 $heading-font-size:    50px !default;
 $base-font-weight:     400 !default;
