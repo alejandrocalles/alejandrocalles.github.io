@@ -2,6 +2,7 @@
  * Site header
  */
 .site-header {
+  padding-top: $spacing-unit * 0.15;
   border-bottom: 3px solid $header-border-color;
   min-height: $spacing-unit * 0.8;
 
@@ -50,8 +51,8 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    background-color: $header-background-color;
+    border: 1px solid $header-border-color;
     border-radius: 5px;
     text-align: right;
 
@@ -74,7 +75,7 @@
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $header-border-color;
       }
     }
 
