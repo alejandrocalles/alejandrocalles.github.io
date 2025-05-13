@@ -10,7 +10,7 @@ layout: home
 
 # Skills
 
-_Some of the skills I've acquired over the past few years._
+Some of the skills I've acquired over the past few years.
 
 
 {% for skill in site.data.skills %}
@@ -28,7 +28,7 @@ _Some of the skills I've acquired over the past few years._
 
 # Projects
 
-_Some of the projects I've worked on._
+Some of the projects I've worked on.
 
 {% for project in site.data.projects %}
 [{{ project.title }}]({{ project.url | relative_url }})

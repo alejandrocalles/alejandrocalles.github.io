@@ -37,7 +37,8 @@ $void-green:               #001109;
 $dark-green:               #002515;
 $castleton-green:          #0D5235;
 $dark-spring-green:        #1A7E54;
-$emerald:                  #34D793;
+$pigment-green:            #1FA74F;
+$emerald:                  #34D773;
 $celadon:                  #8FE6A9;
 $vanilla:                  #E9DE97;
 $cream:                    #EBECB5;
@@ -57,27 +58,29 @@ $header-background-color:  $dark-green !default;
 $header-border-color:      $cream !default;
 $header-link-hover:        $vanilla !default;
 
-// 
-$background-color: $void-green !default;
-$text-color:       $nyanza !default;
-$brand-color:      $emerald !default;
-$heading-color:    $emerald !default;
-$subheading-color: $ivory !default;
-$link-color:       $emerald !default;
-$code-background:  $dark-green !default;
+// Greeting
+$greeting-color:           $cream !default;
 
+$background-color:         $void-green !default;
+$text-color:               $nyanza !default;
+$link-color:               $cream !default;
+$link-hover-color:         $vanilla !default;
+$brand-color:              $cream !default;
+$heading-color:            $cream !default;
+$subheading-color:         $ivory !default;
+$code-background:          $dark-green !default;
 
-$grey-color:       #8f8f8f !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color:               #8f8f8f !default;
+$grey-color-light:         lighten($grey-color, 40%) !default;
+$grey-color-dark:          darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    1000px !default;
+$content-width:    1300px !default;
 
 $on-palm:          700px !default;
-$on-laptop:        1000px !default;
+$on-laptop:        1300px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

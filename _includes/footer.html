@@ -3,22 +3,9 @@
 
   <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+    <div class="footer-content">
+      Built by {{ site.author }}, using <a href="https://github.com/jekyll/jekyll">Jekyll</a> and a customized version of the
+      <a href="https://github.com/jekyll/minima/tree/v2.5.1">Minima</a> theme.
     </div>
 
   </div>

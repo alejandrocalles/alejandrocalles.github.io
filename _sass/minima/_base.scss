@@ -116,7 +116,7 @@ a {
   }
 
   &:hover {
-    color: lighten($link-color, 20%);
+    color: $link-hover-color;
     text-decoration: underline;
   }
 
