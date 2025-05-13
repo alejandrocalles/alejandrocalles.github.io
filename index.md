@@ -16,8 +16,10 @@ Some of the skills I've acquired over the past few years.
 {% for skill in site.data.skills %}
 {% assign categories = skill.categories | join: " " %}
 {% if categories contains site.topic %}
+<div class="skill-section" markdown="1">
 ## {{ skill.title }}
 {{ skill.description }}
+</div>
 {% endif %}
 {% endfor %}
 
