@@ -41,7 +41,7 @@
 
           {%- for heading in site.home_headings -%}
             {%- if heading.title -%}
-			<a class="page-link" href="#{{ heading.tag }}">{{ heading.title | escape }}</a>
+              <a class="page-link" href="{{ '/index.html#' | append: heading.tag | relative_url }}">{{ heading.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
 
