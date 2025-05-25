@@ -52,25 +52,48 @@ $cool-gray:                #8892B0;
 $periwinkle:               #CCD6F6;
 $aquamarine:               #64FFDA;
 
+// Rosé Pine Moon palette
+$rosepine-base:            #232136;
+$rosepine-surface:         #2A273F;
+$rosepine-overlay:         #393552;
+
+$rosepine-pine:            #3E8FB0;
+$rosepine-foam:            #9CCFD8;
+$rosepine-iris:            #C4A7E7;
+$rosepine-text:            #E0DEF4;
+$rosepine-rose:            #EA9A97;
+$rosepine-love:            #EB6F92;
+$rosepine-gold:            #F6C177;
+$rosepine-subtle:          #908CAA;
+$rosepine-highlight-high:  #56526e;
+
 
 // Header colors
-$header-background-color:  $void-green !default;
-$header-border-color:      $cream !default;
-$header-link-hover:        $vanilla !default;
+$header-background-color:  $rosepine-base !default;
+$header-border-color:      $rosepine-gold !default;
+$header-link-color:        $rosepine-gold !default;
+$header-link-hover-color:  $rosepine-rose !default;
 
 // Greeting
-$greeting-color:           $cream !default;
+$greeting-color:           $rosepine-rose !default;
 
-$background-color:         $void-green !default;
-$text-color:               $nyanza !default;
-$link-color:               $cream !default;
-$link-hover-color:         $vanilla !default;
-$brand-color:              $cream !default;
-$heading-color:            $cream !default;
-$subheading-color:         $ivory !default;
-$code-background:          $dark-green !default;
+$background-color:         $rosepine-base !default;
+$text-color:               $rosepine-text !default;
+$link-color:               $rosepine-rose !default;
+$link-border-color:        $rosepine-highlight-high !default;
+$link-background-color:    $rosepine-surface !default;
+$link-hover-color:         $rosepine-gold !default;
+$link-hover-border-color:  $rosepine-highlight-high !default;
+$link-hover-background:    $rosepine-overlay !default;
+$brand-color:              $rosepine-gold !default;
+$heading-color:            $rosepine-gold !default;
+$heading-line-color:       $rosepine-gold !default;
+$subheading-color:         $rosepine-gold !default;
+$code-text-color:          $rosepine-text !default;
+$code-background-color:    $rosepine-surface !default;
+$code-border-color:        $rosepine-highlight-high !default;
 
-$grey-color:               #8f8f8f !default;
+$grey-color:               $rosepine-subtle !default;
 $grey-color-light:         lighten($grey-color, 40%) !default;
 $grey-color-dark:          darken($grey-color, 25%) !default;
 

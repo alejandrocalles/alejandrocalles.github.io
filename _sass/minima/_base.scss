@@ -109,15 +109,19 @@ h2, h3, h4, h5, h6 {
  */
 a {
   color: $link-color;
-  text-decoration: underline;
+  background-color: $link-background-color;
+  border: 1px solid $link-border-color;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-decoration: none;
 
-  &:visited {
-    color: $link-color;
-  }
 
   &:hover {
     color: $link-hover-color;
-    text-decoration: underline;
+    border: 1px solid $link-hover-border-color;
+    background-color: $link-hover-background;
+    text-decoration: none;
   }
 
   .social-media-list &:hover {
@@ -156,15 +160,15 @@ code {
   font-family: 'Cascadia Mono NF';
   @include relative-font-size(0.9375);
   color: $text-color;
-  border: 0px solid $cream;
+  border: 0px solid $code-border-color;
   border-radius: 5px;
-  background-color: $dark-green;
+  background-color: $code-background-color;
 }
 
 code.language-plaintext {
   color: $text-color;
-  border: 1px solid $castleton-green;
-  background-color: $code-background;
+  border: 1px solid $code-border-color;
+  background-color: $code-background-color;
 }
 
 code {
