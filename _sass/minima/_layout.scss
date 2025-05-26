@@ -17,18 +17,21 @@
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2;
   margin-bottom: 0;
-  margin-right: 40px;
+  margin-right: 80px;
+  margin-left: 80px;
   float: right;
   color: $header-link-color;
   border: none;
   background-color: $header-background-color;
   text-decoration: none;
+  transition: 0.3s;
 
   &:hover {
     color: $header-link-hover-color;
     text-decoration: none;
     border: none;
     background-color: $header-background-color;
+    box-shadow: none;
   }
 
   @include media-query($on-palm) {
@@ -51,18 +54,18 @@
     scale: 130%;
     line-height: $base-line-height;
     text-decoration: none;
+    box-shadow: none;
     &:not(:last-child) {
       margin-right: 35px;
     }
-    &:hover {
-      .social-media-icon {
+    .social-media-icon {
+      transition: 0.3s;
+      &:hover {
         background-color: $header-background-color;
         border: none;
         fill: #{$header-link-hover-color};
       }
-      text-decoration: none;
     }
-
     .social-media-icon {
       width: 16px;
       height: 16px;
@@ -93,6 +96,8 @@
     border: none;
     line-height: $base-line-height;
     text-decoration: none;
+    box-shadow: none;
+    transition: 0.3s;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -110,7 +115,7 @@
     top: $spacing-unit / 4;
     right: $spacing-unit / 4;
     background-color: $header-background-color;
-    text-align: right;
+    text-align: left;
 
     label[for="nav-trigger"] {
       display: block;
@@ -131,7 +136,12 @@
       text-align: center;
 
       > svg {
-        fill: $header-border-color;
+        fill: $header-link-color;
+      }
+      &:hover {
+        > svg {
+          fill: $header-link-hover-color;
+        }
       }
     }
 
@@ -147,6 +157,9 @@
       padding-bottom: 10px;
       padding-top: 10px;
       margin-top: 20px;
+      .page-link {
+        margin-left: 5px;
+      }
     }
 
     .page-link {
@@ -166,7 +179,7 @@
 #greeting {
   h1 {
     padding-top: $spacing-unit;
-    text-align: center;
+    text-align: left;
     font-size: $base-font-size * $base-line-height * 2.5;
     color: $greeting-color;
   }
@@ -191,7 +204,7 @@
     margin-bottom: $spacing-unit / 4;
   }
   ul {
-    list-style-type: "\25B6\ ";
+    list-style-type: "\25A0\ ";
     list-style-position: outside; 
     li {
       margin-top: $spacing-unit / 8;
@@ -200,6 +213,26 @@
 }
 
 
+.page-content, .site-footer {
+  a {
+    color: $link-color;
+    background-color: $link-background-color;
+    border: 1px solid $link-border-color;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 1px;
+    transition: 0.3s;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-hover-color;
+      background-color: $link-hover-background;
+      border: 1px solid $link-hover-border-color;
+      box-shadow: 0px 0px 5px 0.5px $link-hover-border-color;
+      text-decoration: none;
+    }
+  }
+}
 
 /**
  * Site footer
@@ -212,7 +245,7 @@
 .footer-content {
   color: $grey-color;
   text-align: center;
-  width: 500px;
+  width: auto;
   margin: auto;
 }
 

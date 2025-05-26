@@ -110,19 +110,9 @@ h2, h3, h4, h5, h6 {
 a {
   color: $link-color;
   background-color: $link-background-color;
-  border: 1px solid $link-border-color;
+  border: 0px solid $link-border-color;
   border-radius: 5px;
-  padding-left: 3px;
-  padding-right: 3px;
   text-decoration: none;
-
-
-  &:hover {
-    color: $link-hover-color;
-    border: 1px solid $link-hover-border-color;
-    background-color: $link-hover-background;
-    text-decoration: none;
-  }
 
   .social-media-list &:hover {
     text-decoration: none;

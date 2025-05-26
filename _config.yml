@@ -57,8 +57,8 @@ plugins:
 
 home_headings:
   - tag: skills
-    title: Skills
+    title: skills
   - tag: projects
-    title: Projects
+    title: projects
 
 topic: data-science
